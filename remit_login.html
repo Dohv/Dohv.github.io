@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkalt-Klik</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./remit_login.css">
+    
+  </head>
+  <body>
+    <main class="login_main">
+       <div id="content">
+        <span class='greeting'></span>
+        <form class="login_form" action="">
+            <div class="col-sm-4 input_login">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fas fa-user"></i></div>
+                  </div>
+                  <input type="text" class="form-control inlineFormInput" placeholder="Enter Username">
+              </div>
+            </div>
+            <div class="col-sm-4 input_login">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                  </div>
+                  <input type="text" class="form-control inlineFormInput" placeholder="Enter Password">
+              </div>
+            </div>
+            <button id="remit_login_submit" type="submit" class="btn-lg col-sm-2">Submit</button>
+        </form>
+        <div class="logo">
+          <img id="klik_logo" src="./Images/klik_logo.jpg" alt="klik_logo">
+        </div> 
+      </div> 
+    </main>
+  </body>
+  <script src="remit_login.js"></script>
+</html>
